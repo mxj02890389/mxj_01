@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+	<link href="http://localhost:3000/css/movieList.css" rel="stylesheet"></head>
+	<style type="text/css">
+		table th{
+			text-align: center;
+		}
+	</style>
+
+	<body>
+		<table class="table table-hover" id="a" style="text-align: center;">
+			<tr style="background-color:#FAC100; font-size: 26px;color: white";>
+				<th><input type="checkbox" id="quanxuan" onclick="quanxuan()">全选</th>
+				<th>电影名</th>
+				<th>电影简介</th>
+				<th>放映日期</th>
+				<th>电影图片</th>
+				<th>操作</th>
+			</tr>
+
+		</table>
+		<button class="btn btn-danger" onclick="tianjia()">添加电影</button>
+		<button class="btn btn-danger" onclick="shanChuManyDianYing()">删除多个电影</button>
+
+	<script type="text/javascript" src="http://localhost:3000/js/movieList.js"></script></body>
+
+</html>
